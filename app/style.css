@@ -1,0 +1,333 @@
+.header{
+	background-color: #393c40;
+	width: 100%;
+	height: 6.747;
+}
+html,body{
+	padding:0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+.list{
+	margin-left: 20px;
+	padding-top: 10px;
+	-webkit-filter:invert(1);
+	display: inline-block;
+	overflow: hidden;
+}
+.chat{
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+	padding-left: 20px;
+	overflow: hidden;/*在这里碰到一个问题那就是margin-top边距重叠,解决办法是将其他兄弟元素设置paddint-bottom*/
+}
+.beginchat{
+	display: inline-block;
+	width: 130px;
+	height:30px;
+	background-color:#ed5844;
+	margin-left: 14%;
+	margin-top: 10px;
+	border-radius: 15px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+.font{
+	font-size: 14px;
+	font-weight: bold;
+}
+.right{
+	float: right;
+	-webkit-filter:invert(1);
+	margin-top: 10px;
+	margin-right: 4%;
+}
+.right a{
+	margin-left: 15px;
+	text-decoration:none;
+}
+.right a:hover{
+	text-decoration: none;
+}
+.borderleft{
+	height:10px; width:1px; border-left:1px #000 solid;
+}
+.contentleft{
+	vertical-align: top;
+	width:21%;
+	height: 92.87%;
+	background-color: #ffffff;
+	display: inline-block;
+	border-right: thick solid #efefef;
+	overflow: hidden;
+}
+.contentmain{
+	height: 100%;
+	width: 100%;
+}
+.maindiv{
+	height: 100%;
+	width: 100%;
+}
+.contentf{
+	width: 100%;
+	height: 10%;
+	line-height: 300%;
+	text-align: center;
+	border-bottom: thin solid #efefef;
+	
+	font-size: 18px;
+}
+.contentright{
+	vertical-align: top;
+	width: 78.5%;
+	height: 92.87%;
+	background-color:#ffffff;
+	display: inline-block;
+}
+.conrightf{
+	height: 9.8%;
+	width: 100%;
+	border-bottom: thin solid #efefef;
+	min-width: 40%;
+}
+.conrightext{
+	font:normal bold 20px/300% sans-serif;
+	margin-left: 20px;
+}
+.putop{
+	margin-left: 20px;
+}
+.putright{
+	right: 8%;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background-color: #ee5f4c;
+	margin-top: 15px;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+	font:normal bold 14px/40px sans-serif;
+	position: fixed;
+}
+.search{
+	border:none;
+}
+.conrightb{
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	background-color: #ffffff;
+	bottom: 0;
+	min-width: 40%;
+}
+.conrightdiv{
+	border: 1px solid #808080;
+	width: 95%;
+	height: 90%;
+	margin-left: 25px;
+	border-radius: 4px;
+	line-height: 400%;
+	min-width: 40%;
+}
+.comment{
+	width: auto;
+	min-width: 800px;
+	
+	height: 30px;
+	font-size: 18px;
+	outline: none;
+}
+.send{
+	width: 70px;
+	height: 35px;
+	background-color: #337a8b;
+	display: inline-block;
+	margin:5px 0 0 20px;
+	font:normal bold 14px/35px sans-serif ;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+}
+.commentdiv{
+	display: inline-block;
+	float: left;
+}
+.middlediv{
+	overflow-y:auto;
+	width: 100%;
+	height: 81.5%;
+}
+.chatmain{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+}
+.chatimg{
+	width: 50px;
+	height: 80%;
+	background: url('./images/tree.jpg') no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.chatext{
+	display: inline-block;
+	height: 100%;
+	width: 250px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+.chatime{
+	font: normal bold 14px sans-serif;
+	display: inline-block;
+	padding-left: 14px;
+	color: #dbc3d3;
+}
+.chatuser{
+	font: normal bold 18px sans-serif;
+	display: inline-block;
+	color: #dbc3d3;
+}
+.chatcontent{
+	font:normal bold 20px sans-serif;
+}
+.middlediv::-webkit-scrollbar{
+	width:10px;
+}
+.middlediv::-webkit-scrollbar-button{
+	display: none;
+}
+.middlediv::-webkit-scrollbar-thumb{
+	background-color: #cccccc;
+	border-radius: 5px;
+}
+.usercontent{
+	height: 9.8%;
+	width: 100%;
+	border-bottom: thin solid #efefef;
+}
+a :hover{
+	background-color: #cdd0d3;
+}
+.userdis{
+	width: 50px;
+	height: 50px;
+	margin: 5px 0 0 20px;
+	background:url('./images/moutain.jpg') no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.workdis{
+	width: 50px;
+	height: 50px;
+	margin: 5px 0 0 20px;
+	background:url('./images/work.jpg') no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.user{
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: middle;
+	width: 120px;
+}
+.username{
+	font:normal bold 18px sans-serif;
+}
+div.user h1{
+	font-size: 10px;
+	color: #a3a1a1;
+}
+.distop{
+	vertical-align: top;
+	margin-left: 10%;
+	display: none;
+}
+a:hover .distop{
+	vertical-align: top;
+	margin-left: 10%;
+	display: inline-block;
+}
+.chatworkimg{
+	width: 50px;
+	height: 80%;
+	background: url('./images/work.jpg') no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.chatuserimg{
+	width: 50px;
+	height: 80%;
+	background: url('./images/sunshine.jpg') no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.chatcon{
+	display: inline-block;
+	height: 100%;
+	width: 350px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+.chatbutf{
+	height: 42px;
+	width: 25%;
+	background-color: #7986cb;
+	text-align: center;
+	line-height: 42px;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.chatbuts{
+	height: 42px;
+	text-align: center;
+	width: 35%;
+	margin-left: 10px;
+	line-height: 42px;
+	border-radius: 10px;
+	background-color: #4db6ac;
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.chatbutt{
+	height: 42px;
+	text-align: center;
+	width: 25%;
+	margin-left: 10px;
+	line-height: 42px;
+	border-radius: 10px;
+	background-color: #63c7f2;
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.chatnone{
+	display: none;
+}
